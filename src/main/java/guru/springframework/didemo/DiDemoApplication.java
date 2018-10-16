@@ -9,6 +9,7 @@ import org.springframework.context.ApplicationContext;
 public class DiDemoApplication {
 
 	public static void main(String[] args) {
+
 		ApplicationContext ctx = SpringApplication.run(DiDemoApplication.class, args);
 
 		MyController Controller = (MyController) ctx.getBean("myController");
